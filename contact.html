@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- Header Section -->
+        <header>
+            <h1>ติดต่อฉัน</h1>
+        </header>
+
+        <!-- Contact Info Section -->
+        <section class="contact-info">
+            <h2>วิธีการติดต่อ</h2>
+            <ul>
+                <li>Email: gampanut2020@gmail.com</li>
+                <li>Phone: 092-515-4697</li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/gampanut-soontontam-881108264/">Gampanut Soontontam</a></li>
+            </ul>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section class="contact-form">
+            <h2>ฟอร์มการติดต่อ</h2>
+            <form action="submit_contact.php" method="POST">
+                <label for="name">ชื่อ:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">อีเมล:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">ข้อความ:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">ส่งข้อความ</button>
+            </form>
+        </section>
+
+        <!-- Footer Section -->
+        <footer>
+            <p>Back to <a href="index.html">My Profile</a></p>
+        </footer>
+    </div>
+
+</body>
+</html>
